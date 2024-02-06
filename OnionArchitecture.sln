@@ -15,17 +15,19 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SolutionItems", "SolutionIt
 		README.md = README.md
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "Domain\Domain.csproj", "{82D51455-6487-47AB-BE46-E676803EE3F1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Domain", "Domain\Domain.csproj", "{82D51455-6487-47AB-BE46-E676803EE3F1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Services", "Services\Services.csproj", "{D7C1EAC6-6F50-4724-8EAC-A56DE0EEFB02}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Services", "Services\Services.csproj", "{D7C1EAC6-6F50-4724-8EAC-A56DE0EEFB02}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Services.Abstractions", "Services.Abstractions\Services.Abstractions.csproj", "{E339E612-0C1A-4269-9452-5ED1018B6AA2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Services.Abstractions", "Services.Abstractions\Services.Abstractions.csproj", "{E339E612-0C1A-4269-9452-5ED1018B6AA2}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{D49B1CD9-7159-4829-907E-DA46A73606A5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Persistence", "Persistence\Persistence.csproj", "{F3BE2A6D-805F-489B-AD3C-B15144CB6700}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Persistence", "Persistence\Persistence.csproj", "{F3BE2A6D-805F-489B-AD3C-B15144CB6700}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Presentation", "Presentation\Presentation.csproj", "{021D543D-6285-464A-9C9B-98F56267878F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Presentation", "Presentation\Presentation.csproj", "{021D543D-6285-464A-9C9B-98F56267878F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Web", "Web\Web.csproj", "{55F27D13-0E21-48F4-83BD-66F92F0DDFBF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,6 +59,10 @@ Global
 		{021D543D-6285-464A-9C9B-98F56267878F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{021D543D-6285-464A-9C9B-98F56267878F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{021D543D-6285-464A-9C9B-98F56267878F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{55F27D13-0E21-48F4-83BD-66F92F0DDFBF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55F27D13-0E21-48F4-83BD-66F92F0DDFBF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55F27D13-0E21-48F4-83BD-66F92F0DDFBF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55F27D13-0E21-48F4-83BD-66F92F0DDFBF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

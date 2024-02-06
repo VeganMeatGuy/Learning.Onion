@@ -3,7 +3,7 @@ using Services.Abstractions;
 
 namespace Services;
 
-public sealed class ServiceManager
+public sealed class ServiceManager : IServiceManager
 {
     private readonly Lazy<IOwnerService> _lazyOwnerService;
     private readonly Lazy<IAccountService> _lazyAccountService;
