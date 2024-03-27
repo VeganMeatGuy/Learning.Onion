@@ -6,6 +6,6 @@ The tutorial can be found on https://code-maze.com/onion-architecture-in-aspnetc
 The original repo of the tutorial can be found at https://github.com/CodeMazeBlog/onion-architecture-aspnetcore
 
 # Warning
-My solution is not wokring, because i didn`t implement all the functions.
+My solution is not working, because i didn`t implement all the functions.
 I cloned the original repo for a view into the fully functional app.
 
